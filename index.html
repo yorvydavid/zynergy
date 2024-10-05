@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zynergy AI</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- remix icons CDN-->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+    <!--swiper css-->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!--swiper js-->
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--scroll reveal CDN-->
+    <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <!--main stylesheet-->
+    <link rel="stylesheet" href="style.css">
+    <!--main script-->
+    <script defer src="script.js"></script>
+</head>
+<body>
+    
+    <!-- start header -->
+    <header class="header" id="header">
+        <div class="header__container">
+            <!-- logo -->
+             <a href="#">
+                <img src="assets/logo.png" alt="">
+             </a>
+             <!-- nav trigger btn -->
+              <div class="nav-trigger" id="navTrigger">
+                <i class="ri-menu-line"></i>
+              </div>
+              <!-- nav -->
+               <nav class="nav" id="nav">
+                <!-- close btn -->
+                 <div class="nav__close-btn" id="navCloseBtn">
+                    <i class="ri-close-large-line"></i>
+                 </div>
+                 <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Inicio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#beneficios" class="nav__link">Beneficios</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#servicios" class="nav__link">Servicios</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#faq" class="nav__link">FAQ</a>
+                    </li>
+                
+                    
+                 </ul>
+               </nav>
+               <!-- btn -->
+                <a href="https://wa.me/584262367618">
+                <button class="btn btn-primary btn--sm">Hablemos</button></a>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start banner -->
+    <section class="banner">
+        <div class="container banner__container">
+            <!-- text -->
+             <div class="banner__text">
+                <p class="banner__pretitle"></p> 
+                <h1 class="banner__title h1">
+                    Impulsamos el crecimiento de tu empresa con 
+                    <span>Inteligencia Artificial</span>  
+                </h1>
+                <!-- <p class="lead banner__subtitle">
+                </p> -->
+                <a href="https://wa.me/584262367618">
+                <button class="btn btn-primary btn--lg banner__btn">
+                    Solicita una consulta
+                </button>
+                </a>
+             </div>
+             <!-- img -->
+              <div class="banner__image">
+                <img src="assets/banner/img.png" alt="">
+              </div>
+        </div>
+        <!-- brands -->
+         <div class="brands">
+            <div class="container brands__container">
+                <h3 class="h3 brands__title">Integraciones Nativas</h3>
+                <div class="brands__img-wrapper">
+                    <img class="brands__img" src="assets/integraciones/googlesheets.png" alt="">
+                    <img class="brands__img" src="assets/integraciones/make_pag.png" alt="">
+                    <img class="brands__img" src="assets/integraciones/hubsopt.png" alt="">
+                    <img class="brands__img" src="assets/integraciones/zapier_pag.png" alt="">
+                    <img class="brands__img" src="assets/integraciones/n8n_pag.png" alt="">
+                </div>
+            </div>
+         </div>
+    </section>
+    <!-- end banner -->
+
+    <!-- start benefits -->
+    <section class="benefits section" id="beneficios">
+        <div class="container benefits__container">
+            <h2 class="h2 benefits__title">¿Por qué elegirnos?</h2>
+            <!-- start benefit 1-->
+             <div class="benefit benefit--1">
+                <!-- text -->
+                 <div class="benefit__text">
+                    <h3 class="h3 benefit__title">Centraliza</h3>
+                    <p class="lead benefit__subtitle">
+                        Integra tus canales de WhatsApp, Facebook Messenger, Instagram y LiveChat en una misma bandeja de entrada. Visualiza tus mensajes en curso o pendientes y responde de forma simultánea e instantáneamente todos tus chats.
+                    </p>
+                 </div>
+                 <!-- img -->
+                  <div class="benefit__img">
+                    <img src="assets/benefits/centralizar.png" alt="">
+                  </div>
+             </div>
+            <!-- end benefit 1-->
+
+            <!-- start benefit 2-->
+            <div class="benefit benefit--2">
+                <!-- img -->
+                <div class="benefit__img">
+                    <img src="assets/benefits/chat_bot.png" alt="">
+                  </div>
+                <!-- text -->
+                 <div class="benefit__text">
+                    <h3 class="h3 benefit__title">Chatbots y Asitentes virtuales</h3>
+                    <p class="lead benefit__subtitle">
+                        Creamos soluciones de comunicación automatizadas, diseñadas para mejorar la interacción con tus clientes. La creación de asistentes virtuales y chatbots no solo optimizan la experiencia del cliente, sino que también aumentan la eficiencia al automatizar respuestas y tareas repetitivas.
+                    </p>
+                 </div>
+                 
+             </div>
+            <!-- end benefit 2-->
+
+            <!-- start benefit 3-->
+            <div class="benefit benefit--3">
+                <!-- text -->
+                 <div class="benefit__text">
+                    <h3 class="h3 benefit__title">Automatización de procesos</h3>
+                    <p class="lead benefit__subtitle">
+                        Transformamos tus operaciones mediante la automatización inteligente. Nuestras soluciones de IA están desarrolladas para agilizar procesos, reducir errores y costes.
+                    </p>
+                 </div>
+                 <!-- img -->
+                  <div class="benefit__img">
+                    <img src="assets/benefits/automatizacion.png" alt="">
+                  </div>
+             </div>
+            <!-- end benefit 3-->
+
+        </div>
+    </section>
+    <!-- end benefits -->
+
+    <!-- start testimonials -->
+    <section class="testimonials">
+        
+        <div class="container testimonials__container">
+            <div class="h1 textPublicidad">¿Estás listo para Transformar Tu Negocio?</div>
+            <p class="textPublicidadParrafo">Cuéntanos tu caso sin ningun compromiso. Analizaremos las posibilidades de mejora y optimización en tu negocio con implementación de herramientas basadas en IA.</p>
+            <!-- slider -->
+           
+        </div>
+    </section>
+    <!-- end testimonials -->
+
+    <!-- start services -->
+    <section class="services section" id="servicios">
+        <h2 class="h2 services__title">Services</h2>
+        <div class="container services__container">
+            <!-- services item 1 -->
+            <div class="services__item">
+                <i class="ri-openai-fill services__item-icon"></i>
+                <h4 class="h4 services__item-title">Asistente de citas con IA</h4>
+                <p>Convierta clientes potenciales en citas de calidad con un asistente de programación con inteligencia artificial</p>
+            </div>
+            <!-- services item 2 -->
+            <div class="services__item">
+                <i class="ri-robot-3-line services__item-icon"></i>
+                <h4 class="h4 services__item-title">Chatbots para WhatsApp</h4>
+                <p>Automatiza conversaciones en la aplicación de chat más popular del mundo</p>
+            </div>
+            <!-- services item 3 -->
+            <div class="services__item">
+                <i class="ri-robot-3-fill services__item-icon"></i>
+                <h4 class="h4 services__item-title">Chatbots para sitios web</h4>
+                <p>Genere leads y mejora la experiencia de tus cliente en la web</p>
+            </div>
+            <!-- services item 4 -->
+            <div class="services__item">
+                <i class="ri-share-fill services__item-icon"></i>
+                <h4 class="h4 services__item-title">Integraciones de API Y SDK</h4>
+                <p> Construya, envie y escale experiencias conversacionales al mundo.</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- end services -->
+
+    <!-- start faq -->
+    <section class="faq" id="faq">
+        <div class="container faq__container">
+            <div class="faq__img">
+                <img src="assets/faq/faq.png" alt="">
+            </div>
+            <!-- items -->
+             <div class="faq__items">
+                <h3 class="h3 faq__title">FAQ</h3>
+                <!-- faq item start -->
+                 <div class="faq__item">
+                    <!-- question -->
+                     <div class="faq__item-question">
+                        <h4 class="faq__item-title">¿Qué es un chatbot de IA?</h4>
+                        <i class="ri-arrow-down-s-line faq__item-icon"></i>
+                     </div>
+                     <!-- answer-->
+                      <p class="faq__item-answer">
+                        Un chatbot con IA es un tipo avanzado de chatbot que utiliza inteligencia artificial para crear respuestas dinámicas y similares a las humanas en tiempo real en lugar de depender únicamente de respuestas o guiones predefinidos. A diferencia de los bots basados en reglas, que solo pueden responder con respuestas preprogramadas, un chatbot con IA comprende el contexto y el significado detrás de la entrada de un usuario y genera respuestas nuevas y únicas basadas en la conversación.
+                      </p>
+                 </div>
+                 <!-- faq item end -->
+                 <!-- faq item start -->
+                 <div class="faq__item">
+                    <!-- question -->
+                     <div class="faq__item-question">
+                        <h4 class="faq__item-title">¿Cómo benefician los chatbots de IA a la atención al cliente?</h4>
+                        <i class="ri-arrow-down-s-line faq__item-icon"></i>
+                     </div>
+                     <!-- answer-->
+                      <p class="faq__item-answer">
+                        Los chatbots de soporte al cliente con inteligencia artificial pueden crear respuestas rápidas y automatizadas a las consultas de los usuarios y permitir una resolución más rápida de los problemas. Pueden gestionar consultas habituales, como el seguimiento de pedidos o la gestión de cuentas, y proporcionar asistencia las 24 horas del día, los 7 días de la semana.
+                      </p>
+                 </div>
+                 <!-- faq item end -->
+                 <!-- faq item start -->
+                 <div class="faq__item">
+                    <!-- question -->
+                     <div class="faq__item-question">
+                        <h4 class="faq__item-title">¿Es posible conectar un chatbot con múltiples canales?</h4>
+                        <i class="ri-arrow-down-s-line faq__item-icon"></i>
+                     </div>
+                     <!-- answer-->
+                      <p class="faq__item-answer">
+                        ¡Sí! Un chatbot se puede conectar a múltiples canales, como cualquier sitio web, Facebook Messenger, Instagram, WhatsApp.
+                      </p>
+                 </div>
+                 <!-- faq item end -->
+                 <!-- faq item start -->
+                 <div class="faq__item">
+                    <!-- question -->
+                     <div class="faq__item-question">
+                        <h4 class="faq__item-title">¿Cómo gestionan los chatbots de IA las interacciones con los clientes?</h4>
+                        <i class="ri-arrow-down-s-line faq__item-icon"></i>
+                     </div>
+                     <!-- answer-->
+                      <p class="faq__item-answer">
+                        Los chatbots de IA gestionan las interacciones con los clientes mediante el uso de IA conversacional para comprender y responder a las consultas de los usuarios en tiempo real. Estos chatbots impulsados por la IA se pueden integrar en sitios web, aplicaciones o plataformas de mensajería para brindar una atención al cliente confiable. Pueden resolver problemas de los clientes, ayudar con la resolución de problemas o brindar información como el estado del pedido.
+                      </p>
+                 </div>
+                 <!-- faq item end -->
+                  <!-- faq item start -->
+                 <div class="faq__item">
+                    <!-- question -->
+                     <div class="faq__item-question">
+                        <h4 class="faq__item-title">¿Cómo pueden ayudar los chatbots a interactuar con clientes potenciales?</h4>
+                        <i class="ri-arrow-down-s-line faq__item-icon"></i>
+                     </div>
+                     <!-- answer-->
+                      <p class="faq__item-answer">
+                        Los chatbots pueden interactuar de forma proactiva con clientes potenciales mediante saludos personalizados adaptados a su comportamiento en su sitio web. Al iniciar conversaciones en el momento adecuado, como cuando un visitante parece interesado en un servicio o producto en particular, los chatbots pueden convertir una navegación casual en interacciones significativas. 
+                      </p>
+                 </div>
+                 <!-- faq item end -->
+             </div>
+        </div>
+    </section>
+    <!-- end faq -->
+
+    <!-- start contact -->
+    <!-- end contact -->
+
+    <!-- start footer -->
+    <footer class="footer">
+        <div class="container footer__container">
+           <div>
+            <img src="/assets/footer/zyner.png" alt="">
+           </div>
+            <h2 class="footer__title"></h2>
+            <div class="footer__info-wrapper">
+                <!-- start info -->
+                <div class="info">
+                    <!-- <p class="info__email">contacto@zynergyai.com</p> -->
+                    <p class="info__address">
+                        Barquisimeto, Edo. Lara - Venezuela <br/>
+                        +58 426-2367618
+                    </p>
+                </div>
+                <!-- end info -->
+                <!-- start social -->
+                <ul class="social">
+                    <li class="social__item">
+                        <a href="https://wa.me/584262367618" class="social__icon">
+                            <i class="ri-whatsapp-fill"></i>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#" class="social__icon">
+                            <i class="ri-youtube-fill"></i>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#" class="social__icon">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#" class="social__icon">
+                            <i class="ri-facebook-circle-fill"></i>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="#" class="social__icon">
+                            <i class="ri-tiktok-fill"></i>
+                        </a>
+                    </li>
+                </ul>
+                <!-- end social -->
+            </div>
+        </div>
+        <!-- copyright-->
+        <div class="container">
+            <p class="footer__copyright">&copy Powered by ZYNERGY AI 2024, Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- temporary div-->
+     <!--<div style="height: 4000px;"></div> -->
+
+
+</body>
+</html>
